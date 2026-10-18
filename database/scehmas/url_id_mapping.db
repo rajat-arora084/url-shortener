@@ -1,0 +1,4 @@
+Create table IF not EXISTS url_id_mapping  (
+	url_id INT DEFAULT nextval('url_id_seq') PRIMARY KEY,
+	actual_url VARCHAR2(50)
+);
