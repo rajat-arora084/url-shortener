@@ -1,0 +1,39 @@
+.shortner-form {
+
+    
+    .btn-selected {
+        background-color: white;
+    }
+
+    button {
+        background-color: rgb(105, 224, 228);
+        border-radius: 1%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 2%;
+    color: black;
+
+    //height: fit-content;
+    padding: 1rem;
+}
+
+.spinner-border-sm {
+    border-color: cadetblue !important;
+}
+
+.message-sucess {
+    color: green;
+}
+
+.message-error {
+    color: red;
+}
