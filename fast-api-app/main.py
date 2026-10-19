@@ -4,7 +4,7 @@ from fastapi import FastAPI, Body, Depends, HTTPException
 from fastapi.responses import JSONResponse,RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from app.services.generate_controller import generate_short_url,fetch_actual_url,check_if_url_exists, encode
+from app.services.shortener_service import generate_short_url,fetch_actual_url,check_if_url_exists, encode
 from app.core.db import lifespan, get_db
 
 app = FastAPI(lifespan=lifespan)
